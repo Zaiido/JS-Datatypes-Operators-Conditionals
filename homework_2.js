@@ -95,7 +95,7 @@ if (string1.length > string2.length) {
 */
 
 let control = 8;
-if (typeof control === "number") {
+if (control % 1 === 0) {
   console.log("The given value is an integer.");
 } else {
   console.log("The given value is not an integer.");
