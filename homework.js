@@ -71,10 +71,29 @@ console.log("john is same as john:", name1 === name2.toLowerCase());
 */
 
 let x2 = 5; // I used x2 as my variable as x is already used above
-if (x2 === 5) {
+if (x2 === 0) {
+  console.log("zero");
+} else if (x2 === 1) {
+  console.log("one");
+} else if (x2 === 2) {
+  console.log("two");
+} else if (x2 === 3) {
+  console.log("three");
+} else if (x2 === 4) {
+  console.log("four");
+} else if (x2 === 5) {
   console.log("five");
+} else if (x2 === 6) {
+  console.log("six");
+} else if (x2 === 7) {
+  console.log("seven");
+} else if (x2 === 8) {
+  console.log("eight");
+} else if (x2 === 9) {
+  console.log("nine");
+} else {
+  console.log("ten");
 }
-
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
