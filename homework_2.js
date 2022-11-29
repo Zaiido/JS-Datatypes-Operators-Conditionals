@@ -14,7 +14,8 @@ console.log("Gender is:", gender);
 */
 
 let number1 = 5;
-let number2 = 2;
+let number2 = 8;
+/* Longer way
 let oneNumberIsEight = number1 === 8 || number2 === 8;
 let additionOrSubtractionIsEight =
   number1 + number2 === 8 || number1 - number2 === 8;
@@ -24,6 +25,19 @@ console.log(
   "One of the numbers is 8 or their addition or subtraction is equal to 8:",
   oneNumberIsEightOradditionOrSubtractionIsEight
 );
+*/
+
+if (
+  (number1 === 8 ||
+    number2 === 8 ||
+    number1 + number2 === 8 ||
+    number1 - number2 === 8 ||
+    number2 - number1 === 8) === false
+) {
+  console.log("None of the conditions is true");
+} else {
+  console.log("One of the conditions stand.");
+}
 
 /*EX 3
  Create a variable and assign to it the concatenation of two strings.
